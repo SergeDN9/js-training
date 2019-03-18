@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/sergedn9/js-training.svg?branch=master)](https://travis-ci.org/sergedn9/js-training)
+[![Build Status](https://travis-ci.org/SergeDN9/js-training.svg?branch=master)](https://travis-ci.org/SergeDN9/js-training)
 ## Setup
-First, [**fork**](https://github.com/sergedn9/js-training/fork?fragment=1) this repository.
+First, [**fork**](https://github.com/SergeDN9/js-training/fork?fragment=1) this repository.
 ### globals dependencies
 install globaly node on your computer
 
