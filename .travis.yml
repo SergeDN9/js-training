@@ -1,4 +1,4 @@
-script: ./tester advanced
+script: ./tester basics advanced
 language: node_js
 node_js:
   - "node"
