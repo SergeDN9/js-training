@@ -6,6 +6,13 @@
  *
  */
 
+function total(tableau){
+  let somme = 0
+  tableau.forEach(nombre => {
+    somme += nombre
+  })
+  return somme
+}
 
 //* Begin of tests
 const assert = require('assert')
