@@ -10,10 +10,24 @@
  *
  */
 
+ var pieces = '';
 
+function jadenCase(text) {
+  var pieces = text.split(" ");
+  for (var i = 0; i < pieces.length; i++) {
+    var j = pieces[i].charAt(0).toUpperCase();
+    pieces[i] = j + pieces[i].substring(1);
+  }
+  return pieces.join(" ");
+}
+
+jadenCase('hello magnificent world')
 
 //* Begin of tests
 const assert = require('assert')
 
-assert.fail('You must write your own tests')
+assert.strictEqual(typeof jadenCase, 'function')
+assert.strictEqual(typeof pieces, 'string')
+assert.strictEqual(jadenCase('hello magnificent world'), 'Hello Magnificent World')
+
 // End of tests */
