@@ -17,6 +17,12 @@ const sourceObject = {
 
 // Your code :
 
+function get(key) {
+  return sourceObject[key];
+}
+
+// const get = key  => sourceObject[key];  autre formulation en ecma-6
+
 //* Begin of tests
 const assert = require('assert')
 

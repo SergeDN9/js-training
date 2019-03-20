@@ -9,6 +9,12 @@
 
 // Your code :
 
+function getFirst(arrString) {
+
+  return (typeof(arrString) === 'string' ? (arrString.charAt(0)) : arrString[0])
+}
+
+
 //* Begin of tests
 const assert = require('assert')
 

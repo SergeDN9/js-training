@@ -9,6 +9,11 @@
 
 // Your code :
 
+function getLast(arrString){
+  let lcar = arrString.length -1
+  return (typeof (arrString) === 'string' ? (arrString.charAt(lcar)) : arrString.pop())
+}
+
 //* Begin of tests
 const assert = require('assert')
 
